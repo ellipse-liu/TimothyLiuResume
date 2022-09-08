@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV de Timothee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--logo-->
+    <a href="#intro">
+        <button class="backup" style="border-radius: 10px; position: fixed; z-index: 1; bottom: 5em; right: 5em;">Back to Top</button>
+    </a>
+
+    <section id="intro">
+        <img class="modifylanguage" src="Logo(English).gif" id="logo">
+        <div class="welcome_block">
+            <p class="modifylanguage" id="welcome">Hey! My name is Timothy, and this is my website! It's a hub that demonstrates my professional, artistic, and educational experience.
+                 I hope you enjoy your time here. You can click one of the buttons below to get started. You can go see a gallery of my projects, download a copy of my resume, 
+                 or change the website language.
+            </p>
+        </div>
+        <div class="nav">
+            <a href="#gallery">
+            <button id="gallery_button"><span>Gallery</span></button>
+            </a>
+            <a href="#resume">
+                <button id="resume_button"><span id="resume_text">Resume</span></button>
+            </a>
+            <button id="language_button"><span id="lang_text">English</span></button>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div id="resume-backdrop" style="margin-top: 20px;display: flex; flex-direction: column; align-items: center;margin-bottom: 20px; background-color: aliceblue;border-radius: 10px; width: 60vw;">
+            <div id="education_block">
+                <h1 style="font-size: 50px;text-align: center;">Education</h1>
+                <h2 style="font-size: 30px;margin-top: 20px;margin-bottom: 20px;">2022 - Present</h2>
+                <p id="eduinfo"><span class="bolded">Major: </span>Cognitive Science B.S. Computational Emphasis<br><br><span class="bolded">School:</span> UC Davis<br><br><span class="bolded">GPA:</span> In-progress<br><br><span class="bolded">Expected Graduation:</span> May 2024<br><br><span class="bolded">Relevant In-Progress Coursework:</span><br>
+                    Discrete Math for Computer Science, Software Dev & Object Oriented Prog in C++</p>
+                <h2 style="font-size: 30px;margin-top: 20px;margin-bottom: 20px;">2020 - 2022</h2>
+                <p><span class="bolded">Major: </span>Biology for Transfer<br><br><span class="bolded">School:</span> De Anza College<br><br><span class="bolded">GPA:</span> 3.72<br><br><span class="bolded">Relevant Coursework:</span><br>
+                    Intro to Comp Prog Using Java, Intermed Prog Method C++, Calculus 1A, Calculus</p>
+
+                <h2 style="font-size: 30px;margin-top: 20px;margin-bottom: 20px;">2016 - 2020</h2>
+                <p><span class="bolded">Diploma: </span>High School Diploma<br><br><span class="bolded">School:</span> Lynbrook High School</p>
+            </div>
+            <div id="professional_block">
+                <h1 style="font-size: 50px;margin-top: 20px;">Languages and Skills</h1>
+                <p style="margin-top:20px;"><span class="bolded">Languages: </span><br>English(Native), Chinese(Native), French(Conversational)</p>
+                <p style="margin-top:20px;"><span class="bolded">Skills: </span><br>Python(tensorflow, keras, numpy)<br>C# Unity(4+ years of experience)<br>
+                HTML, CSS, Javascript<br>Blender(4+ years of Experience)<br>Photoshop<br>Indesign<br>Marketing<br>Customer Interaction</p>
+            </div>
+            <a href="Resume Fall 2022.pdf" download="Timothy Liu's Resume">
+                <button style="margin-top:30px;background-color: plum;color: aliceblue;"><span></span>Download Resume</button>
+            </a>
+        </div>
+    </section>
+
+
+    <section id="gallery">
+        <h1 style="font-size:40px;margin-top: 30px;margin-bottom: 20px;">Gallery</h1>
+        <div class="container" style="width: 100%; display: flex; flex-direction: column; justify-content: center; margin-bottom: 20px;">
+            <div class="rowcontainer" style="width: 100%; display: flex; flex-direction: row; justify-content: center;">
+                <div class="cell" id="HYA">
+                    <div class="overlay" style="background-color: rgba(0,0,0,0.7); display:flex; width: 100%;height: 100%;align-items: center;justify-content: center;">
+                        <p style="color:aliceblue; font-size: 20px;"><b>Art Teacher</b></p>
+                    </div>
+                </div>
+                <div class="cell" id="paper2016">
+                    <div class="overlay" style="background-color: rgba(0,0,0,0.7); display:flex; width: 100%;height: 100%;align-items: center;justify-content: center;">
+                        <p style="color:aliceblue; font-size: 20px;"><b>Statistical Java Gaming Simulation</b></p>
+                    </div>
+                </div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="rowcontainer" style="width: 100%; display: flex; flex-direction: row; justify-content: center;">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="rowcontainer" style="width: 100%; display: flex; flex-direction: row; justify-content: center;">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="rowcontainer" style="width: 100%; display: flex; flex-direction: row; justify-content: center;">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+        </div>
+        <div class="modal">
+            <span class="close">X</span>
+            <div class="modal_content">
+                <img src="" class="modalImg" style="height: 50%; margin-top: 20px; margin-bottom:20px; border-radius:4px;">
+                <h1 class="modalTitle">Art Teacher at Hongyun Art<br>2019 - 2021</h1>
+                <span class="modalText" style="width: 70%; margin-top:10px; text-align: center; font-size: 20px;"></span>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
